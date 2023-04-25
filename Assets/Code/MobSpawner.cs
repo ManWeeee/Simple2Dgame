@@ -21,7 +21,7 @@ public class MobSpawner : MonoBehaviour
     }
     private void Start()
     {
-        _spawnPosition = _spawnPointObject.transform.position - _offset;
+        _spawnPosition = _spawnPointObject.transform.position + _offset;
     }
 
     private void Update()
